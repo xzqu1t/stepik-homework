@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(221, 220, 220);
+}
+
+.f1rst {
+    background-color: rgb(180, 180, 180);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 0px auto;
+    max-width: 1000px;
+    margin-top: 1em;
+}
+
+.buttoncomplete {
+    position: relative;
+    margin: 0;
+
+}
+
+.h3-main {
+    text-align: center;
+}
+
+
+
+.tabs {
+}
+
+.tab-h {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid #007bff;
+}
+
+.tab-b {
+    display: none;
+    padding: 20px;
+}
+
+.tabs-body {
+    position: relative;
+    top: -1px;
+}

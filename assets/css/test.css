@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tabs {
+    width: 600px;
+    height: 350px;
+    background: rgb(201, 201, 201);
+    margin: 50px auto;
+    font-family: sans-serif;
+}
+
+.tab-h {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.tab-b {
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.tabs-body {
+    position: relative;
+    top: -1px;
+}
